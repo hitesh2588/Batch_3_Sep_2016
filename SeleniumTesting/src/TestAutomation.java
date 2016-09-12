@@ -5,6 +5,7 @@ import com.thoughtworks.selenium.DefaultSelenium;
  *
  */
 
+
 public class TestAutomation {
 
 	public static void main(String[] args) {
@@ -28,8 +29,10 @@ public class TestAutomation {
 			selenium.captureEntirePageScreenshot("D:/Screenshot/EntirePageError.jpg", "background=#1A55D6");
 		}
 		
-		selenium.close(); //Close Current Browser on which the main focus or site was opened.
-		selenium.stop(); // Kill Session - Close all related windows like tabs and popups
+		selenium.click("next");
+		
+		/* selenium.close(); //Close Current Browser on which the main focus or site was opened.
+		selenium.stop(); // Kill Session - Close all related windows like tabs and popups*/
 		
 	}
 
