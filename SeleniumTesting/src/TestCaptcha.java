@@ -81,8 +81,7 @@ public class TestCaptcha {
 			selenium.type("//*[@id='mathuserans2']",Integer.toString(num1-num2));
 		}
 		*/
-		
-		
+				
 		/*System.out.println(text.substring(0,1));
 		System.out.println(text.substring(4,5));
 		
@@ -99,6 +98,7 @@ public class TestCaptcha {
 			System.out.println("Clicked on Vote");
 		}
 	}
+	
 	
 	/*
 		On making the vote button click on website 'http://timesofindia.indiatimes.com/poll.cms' the pop up asking to select the option did not appear.
