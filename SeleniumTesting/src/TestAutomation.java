@@ -38,7 +38,7 @@ public class TestAutomation {
 		System.out.println(selenium.getText("//*[@id='errormsg_0_Passwd']"));
 				
 		/*selenium.close(); //Close Current Browser on which the main focus or site was opened.
-		selenium.stop(); // Kill Session - Close all related windows like tabs and popups*/		
+		selenium.stop(); // Kill Session - Close all related windows like additional windows,tabs and popups*/		
 	}
 
 }
