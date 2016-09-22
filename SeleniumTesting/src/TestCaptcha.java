@@ -102,6 +102,6 @@ public class TestCaptcha {
 	
 	/*
 		On making the vote button click on website 'http://timesofindia.indiatimes.com/poll.cms' the pop up asking to select the option did not appear.
-		Secondly using firebug unable to get the xpath of the popup( need to find a way to get the xpath).
+		Secondly using firebug unable to get the xpath of the popup( need to find a way to get the xpath or select/access the popup).
 	 */
 }
